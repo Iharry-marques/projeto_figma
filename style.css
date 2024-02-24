@@ -11,13 +11,13 @@ body {
   margin: 0;
 }
 
-header{
-    width: 592px;
-    margin: 0 auto 72px;
+header {
+  width: 592px;
+  margin: 0 auto 72px;
 }
 
-header img{
-    margin-bottom: 72px;
+header img {
+  margin-bottom: 72px;
 }
 
 h1 {
@@ -43,19 +43,24 @@ p {
 }
 
 #line {
-    width: 568px;
-    border: 1px solid rgba(236, 239, 242, 1);
-    margin: 0 auto 8px;
+  width: 568px;
+  border: 1px solid rgba(236, 239, 242, 1);
+  margin: 0 auto 8px;
 }
 
-footer a + a{
-    margin-left: 28px;
+
+footer a + a {
+  margin-left: 28px;
 }
 
-a{
+a {
   color: var(--yellow-color);
-  text-decoration: none; 
+  text-decoration: none;
   font-size: 14px;
 }
 
-
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
