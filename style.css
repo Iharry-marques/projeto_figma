@@ -1,0 +1,27 @@
+:root{
+    --black-color: #000000;
+    --blue-color: rgba(99, 177, 252, 1);
+    --orange-color: rgba(255, 153, 0, 1);--gray-color: rgba(125, 121, 135, 1);
+    --yellow-color: rgba(255, 164, 52, 1);
+}
+
+h1{
+    font-family: 'Inter', sans-serif
+}
+
+body{
+ font-family: 'Open Sans', sans-serif;
+}
+
+span {
+    color: var(--orange-color);
+}
+
+p{
+    color: var(--gray-color)
+}
+
+a{
+    color: var(--yellow-color);
+    text-decoration: none;
+}
