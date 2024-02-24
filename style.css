@@ -42,13 +42,20 @@ p {
   line-height: 28px;
 }
 
+#line {
+    width: 568px;
+    border: 1px solid rgba(236, 239, 242, 1);
+    margin: 0 auto 8px;
+}
+
 footer a + a{
     margin-left: 28px;
 }
 
 a{
   color: var(--yellow-color);
-  text-decoration: none;  
+  text-decoration: none; 
+  font-size: 14px;
 }
 
 
